@@ -1,6 +1,6 @@
 #ifndef OTHERS_FILE
 #define OTHERS_FILE
-#include "Core.hpp"
+#include "core.hpp"
 
 // prefix_sumは2次元まで対応
 template <typename T>

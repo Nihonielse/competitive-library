@@ -1,7 +1,7 @@
 #ifndef INOUT_FILE
 #define INOUT_FILE
 
-#include "Core.hpp"
+#include "core.hpp"
 
 inline void yn(const bool &tf) {
     if(tf)cout<<"Yes"<<endl;
