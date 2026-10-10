@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Build current C++",
+    "command": "./build/build-cpp",
+    "args": ["$ZED_FILE"],
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "save": "current",
+    "reveal": "always",
+    "hide": "on_success"
+  }
+]

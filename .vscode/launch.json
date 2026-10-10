@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		
+		{
+			"name": "Debug current C++",
+			"type": "lldb",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/comp-${fileBasename}-bin",
+			"cwd": "${workspaceFolder}",
+			"preLaunchTask": "Build current C++",
+			"stdio": [
+				"${workspaceFolder}/input.txt",
+				"${workspaceFolder}/output.txt",
+				null
+			],
+			"stopOnEntry": false
+		}
+	]
+}

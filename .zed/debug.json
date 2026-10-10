@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Debug current C++",
+    "adapter": "CodeLLDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/comp-$ZED_FILENAME-bin",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "stdio": [
+      "input.txt",
+      "output.txt",
+      null
+    ],
+    "stopOnEntry": false,
+    "env":{
+      "LSAN_OPTIONS": "detect_leaks=0"
+    }
+  }
+]
