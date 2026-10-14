@@ -1,3 +1,5 @@
+// Library and Editor Setting is here: https://github.com/Nihonielse/competitive-library
+
 #ifndef CORE_FILE
 #define CORE_FILE
 
